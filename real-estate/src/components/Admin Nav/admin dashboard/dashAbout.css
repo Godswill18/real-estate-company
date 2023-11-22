@@ -1,0 +1,89 @@
+.aboutPage h1{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.aboutPage .abParagraph1{
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 38rem;
+}
+
+.aboutPage .abParagraph1 textarea{
+    width: 80%;
+    height: 80px;
+}
+
+.aim{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.abGoal{
+    margin-left: 9%;
+    display: flex;
+    gap: 70px; 
+}
+
+.abParagraph2{
+    margin-bottom: 5%;
+}
+
+.abGoal .goal1{
+    width: 18rem;
+}
+
+.abGoal .goal2{
+    width: 18rem;
+}
+
+.abGoal .goal3{
+    width: 18rem;
+}
+
+@media (max-width: 700px) {
+
+    .aboutPage{
+        margin-top: 20%;
+    }
+    .aboutPage h1 {
+      text-align: center;
+      margin-top: 5%;
+    }
+  
+    .aboutPage .abParagraph1 {
+      margin-top: 5%;
+      margin-left: 8%; /* Centering the paragraph, adjust as needed */
+      width: 80%; /* Adjust the width as needed */
+    }
+  
+    .aboutPage .abParagraph1 textarea {
+      width: 100%; /* Make the textarea full width */
+      height: 80px;
+    }
+  
+    .aim {
+      margin-top: 5%;
+      text-align: center;
+      width: 90%;
+      margin-left: 5%;
+    }
+  
+    .abGoal {
+      margin-left: 0; /* Center the goals, adjust as needed */
+      display: flex;
+      flex-direction: column; /* Stack goals vertically */
+      gap: 20px; /* Adjust the gap between goals as needed */
+    }
+  
+    .abGoal .goal1,
+    .abGoal .goal2,
+    .abGoal .goal3 {
+      width: 100%; /* Make each goal full width */
+    }
+  
+    .abParagraph2 {
+      margin-bottom: 5%;
+    }
+  }
+  

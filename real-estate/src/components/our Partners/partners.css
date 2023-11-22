@@ -1,0 +1,34 @@
+
+/* our patners  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.carousel2{
+    padding: 5rem;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.box2 img {
+    width: 50%; /* Make the image fill the width of the container */
+    height: 50%; /* Make the image fill the height of the container */
+    object-fit: cover; /* Maintain the image's aspect ratio and cover the container */
+}
+
+
+.stick-next{
+    right: -40px !important;
+    color: #000000 !important;
+}
+
+.slick-dots li button:before{
+    color: rgb(18, 18, 18) !important;
+    font-size: 1rem;
+}

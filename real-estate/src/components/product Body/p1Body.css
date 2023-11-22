@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+
+  
+  .containerX {
+    max-width: 75%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 5%;
+    background: white;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .leftX, .rightX {
+    width: 50%;
+    padding: 30px;
+  }
+  
+  .flexX {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+  }
+
+  .flexX img{
+    cursor: pointer;
+  }
+  
+  .flex1X {
+    display: flex;
+  }
+  
+  .main_imageX {
+    width: auto;
+    height: auto;
+  }
+  
+  .optionX img {
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    margin-top: 15%;
+  }
+  
+  .rightX {
+    padding: 50px 100px 50px 50px;
+  }
+  
+  h5,
+  p,
+  small {
+    color: #837D7C;
+  }
+  
+  h4 {
+    color: rgb(4, 4, 4);
+  }
+  
+  p {
+    margin: 20px 0 50px 0;
+    line-height: 25px;
+  }
+  
+  h5 {
+    font-size: 15px;
+  }
+/*   
+  label,
+  .addX span,
+  .colorX span {
+    width: 25px;
+    height: 25px;
+    background: #000;
+    border-radius: 50%;
+    margin: 20px 10px 20px 0;
+  }
+   */
+  .colorX span:nth-child(2) {
+    background: #EDEDED;
+  }
+  
+  .colorX span:nth-child(3) {
+    background: #D5D6D8;
+  }
+  
+  .colorX span:nth-child(4) {
+    background: #EFE0DE;
+  }
+  
+  .colorX span:nth-child(5) {
+    background: #AB8ED1;
+  }
+  
+  .colorX span:nth-child(6) {
+    background: #F04D44;
+  }
+  
+  .addX label,
+  .addX span {
+    background: none;
+    border: 1px solid #C1908B;
+    color: #C1908B;
+    text-align: center;
+    line-height: 25px;
+  }
+  
+  .addX label {
+    padding: 10px 30px 0 20px;
+    border-radius: 50px;
+    line-height: 0;
+  }
+  
+
+  .slideX{
+    width: 110%;
+  }
+  
+  @media only screen and (max-width:768px) {
+    .containerX {
+      max-width: 90%;
+      margin: auto;
+      height: auto;
+    }
+  
+    .leftX, .rightX {
+      width: 100%;
+    }
+  
+    .containerX {
+      flex-direction: column;
+    }
+  }
+  
+  @media only screen and (max-width:511px) {
+    .containerX {
+      max-width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .leftX, .rightX {
+      padding: 0;
+    }
+  
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .optionX {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }

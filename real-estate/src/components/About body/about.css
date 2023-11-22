@@ -1,0 +1,49 @@
+.backgroundAb{
+
+    background-color: #1f1e1e;
+    opacity: 0.88;
+
+    height: 90%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -100;
+    display: block;
+}
+
+.aboutH1 h1{
+    font-size: 55px;
+    margin-top: 13%;
+   text-align: center;
+   color: #ffffff;
+}
+
+.aboutParagraph{
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.aboutParagraph p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    font-size: 19px;
+    font-weight: 400;
+  
+}
+
+.about1{
+    margin-top: 65%;
+}
+
+.goal{
+   margin-left: 9%;
+   margin-top: 10%;
+   display: flex;
+   gap: 70px; 
+}

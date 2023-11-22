@@ -1,0 +1,86 @@
+/* about image and paragraph */
+.aboutHeader{
+    margin-top: 5%;
+    text-align: center;
+    /* text-decoration: underline; */
+    margin-bottom: 3%;
+}
+
+.about{
+    display: flex;
+    gap: 50px;
+   margin-left: 10%;
+}
+
+.about textarea{
+    width: 70%;
+    height: 70px;
+    margin-left: 2%;
+ }
+
+
+
+.btn {
+    margin-right: 10px; /* Adjust the value as needed */
+}
+
+.about .writeup{
+    width: 30rem;
+}
+
+.writeup .form-buttons {
+    display: flex;
+    gap: 10px; /* Adjust the value as needed */
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+.about .img1{
+    width: 25rem;
+}
+
+@media (max-width: 700px) {
+    /* About image and paragraph */
+    .aboutHeader {
+      margin-top: 5%;
+      text-align: center;
+      margin-bottom: 3%;
+    }
+  
+    .about {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center;
+      margin-left: 0;
+      gap: 20px; /* Adjust the value as needed */
+    }
+  
+    .about textarea {
+      width: 100%; /* Full width on smaller screens */
+      height: 70px;
+      margin-left: 0;
+    }
+  
+    /* Buttons */
+    .btn {
+      margin-right: 0; /* Adjust the value as needed */
+    }
+  
+    .about .writeup {
+      width: 90%; /* Full width on smaller screens */
+      max-width: none; /* Remove max-width on smaller screens */
+    }
+  
+    .writeup .form-buttons {
+      display: flex;
+      flex-direction: column; /* Stack buttons vertically on smaller screens */
+      gap: 10px; /* Adjust the value as needed */
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .about .img1 {
+      width: 80%; /* Full width on smaller screens */
+      max-width: none; /* Remove max-width on smaller screens */
+    }
+  }
+  

@@ -1,0 +1,312 @@
+.homeDash{
+margin-top: 5%;
+}
+
+.homeDash h2{
+ text-align: center;
+ color: cadetblue;
+}
+
+.first {
+    width: 90%;
+   margin-left: 5%;
+   margin-top: 2%;
+}
+
+.first textarea{
+   width: 30%;
+   height: 70px;
+   margin-left: 2%;
+}
+
+
+/* buttons */
+.btn {
+    margin-right: 10px; /* Adjust the value as needed */
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px; /* Adjust the value as needed */
+    margin-left: 20%;
+    margin-top: 10px;
+}
+  
+
+.h1Home form{
+    padding: 10px; /* Adds 10px padding on all sides */
+}
+
+
+/* slides */
+.slideHeader{
+    margin-top: 5%;
+    /* text-decoration: underline; */
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+
+
+.sliderHome{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+    
+}
+
+/* video upload */
+
+.video{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+.videoupload input{
+    width: 70%;
+    margin-left: 2%;
+}
+
+/* upload pictures */
+.image-upload-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.box-decoration {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 130px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-upload-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.image-upload-input {
+    display: none;
+}
+
+.image-upload-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.image-upload-button:hover {
+    background-color: #3e8e41;
+}
+
+.img-display-before {
+    height: 200px;
+    width: 200px;
+    margin-left: 35px;
+}
+
+.img-display-after {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.agentContact{
+    display: flex;
+    gap: 50px;
+   margin-left: 10%;
+}
+
+.ca{
+    text-align: center;
+}
+
+.conAgent{
+    margin-top: 10%;
+    margin-right: 10%;
+    width: 35rem;
+}
+
+.conAgent textarea{
+    width: 70%;
+    height: 10%;
+
+}
+
+.agents h3{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.agents{
+    margin-top: 10%;
+    width: 95%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+
+.agents Button{
+   width: 50%;
+   margin-top: 4%;
+}
+
+/* Moblie view  */
+@media (max-width: 700px) {
+    .homeDash {
+      margin-top: 5%;
+    }
+  
+    .homeDash h2 {
+      text-align: center;
+      color: cadetblue;
+    }
+  
+    .first {
+      width: 80%;
+      margin-left: 5%;
+      margin-top: 2%;
+    
+    }
+
+    .h1Home{
+        margin-bottom: 10%;
+    }
+  
+    .first textarea {
+      width: 100%; /* Full width on smaller screens */
+      height: 70px;
+      margin-top: 2%;
+    }
+  
+    /* Buttons */
+    .btn {
+      margin-right: 0; /* Adjust the value as needed */
+    }
+  
+    .form-buttons {
+      display: flex;
+      flex-direction: column; /* Stack buttons vertically on smaller screens */
+      margin-left: 0;
+      margin-top: 10px;
+      width: 5rem;
+    }
+  
+    .h1Home form {
+      padding: 10px; /* Adds 10px padding on all sides */
+    }
+  
+    /* Slides */
+    .slideHeader {
+      margin-top: 5%;
+      text-align: center;
+      margin-bottom: 3%;
+    }
+  
+    .sliderHome {
+      display: flex;
+      flex-direction: column; /* Stack slides vertically on smaller screens */
+      align-items: center;
+    }
+  
+    .slide1{
+        width: 100%;
+    }
+
+    .slide2{
+        width: 100%;
+    }
+
+    /* Video upload */
+    .video {
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      width: 90%;
+    }
+  
+    .videoupload input {
+      width: 100%; /* Full width on smaller screens */
+      margin-left: 0;
+    }
+  
+    /* Upload pictures */
+    .image-upload-container {
+      padding: 1rem; /* Adjust padding on smaller screens */
+      height: auto; /* Auto height on smaller screens */
+    }
+  
+    .box-decoration {
+      padding: 50px 30px; /* Adjust padding on smaller screens */
+    }
+  
+    .image-upload-label {
+      font-size: 1rem; /* Adjust font size on smaller screens */
+    }
+  
+    .img-display-before,
+    .img-display-after {
+      height: 150px; /* Adjust height on smaller screens */
+      width: 150px; /* Adjust width on smaller screens */
+      margin-left: 0;
+    }
+  
+    /* Agent contact */
+    .agentContact {
+      display: flex;
+      flex-direction: column; /* Stack contact items vertically on smaller screens */
+      width: 90%;
+    }
+
+    .agentContact .contactPicture{
+        width: 20rem;
+    }
+  
+    .ca {
+      text-align: center;
+    }
+  
+    .conAgent {
+      margin-top: 5%; /* Adjust margin on smaller screens */
+      margin-right: 0;
+      width: 20rem;
+    }
+  
+    .conAgent textarea {
+      width: 100%; /* Full width on smaller screens */
+      height: 10%;
+    }
+  
+    /* Agents */
+    .agents h3 {
+      text-align: center;
+      margin-bottom: 5%;
+    }
+  
+    .agents {
+      margin-top: 5%;
+      width: 90%; /* Full width on smaller screens */
+      margin-left: 5%;
+      margin-bottom: 5%;
+      align-items: center;
+    }
+  
+    .agents Button {
+      width: 100%; /* Full width on smaller screens */
+      margin-top: 4%;
+    }
+  }
+  

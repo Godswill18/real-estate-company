@@ -1,0 +1,389 @@
+form{
+    margin-bottom: 10%;
+}
+
+.addproperty{
+    margin-top: 5%;
+    width: 90%;
+}
+
+.addproperty h2{
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.basicInfo {
+    /* Add spacing between input elements */
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  /* Style for the input elements */
+  .basicInfo input[type='text'] {
+    width: calc(100% - 80px); /* Set width of the input, considering 10px padding on each side */
+    padding: 10px; /* Add padding to the input */
+    margin-bottom: 10px; /* Set spacing between input elements */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Set border radius */
+  }
+
+  .basicInfo select{
+    width: calc(100% - 700px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+  }
+  
+  .basicInfo textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none; /* Initially, set border to none */
+    border-bottom: 1px solid #ccc; /* Visible border at the bottom */
+    border-radius: 10px;
+    transition: border-bottom 0.3s ease; /* Add a transition effect */
+    resize: none;
+  }
+  
+  /* Style for the focused textarea */
+  .basicInfo textarea:focus {
+    border-bottom: 2px solid rgb(108, 108, 108); /* Change the border at the bottom on focus */
+    outline: none; /* Remove the default focus outline */
+  }
+
+  /* property for */
+.propertyFor{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+ 
+  /* Style for the input elements */
+.propertyFor .price[type='Number'], .propertyFor input[type='number'] {
+    width: calc(100% - 900px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+  
+  /* Style for the input with type "number" to remove the increment button */
+  .propertyFor input[type='number']::-webkit-inner-spin-button,
+  .propertyFor input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+/* Remove mouse scroll increment for number input */
+.propertyFor input[type='Number'] {
+    -moz-appearance: textfield; /* Firefox */
+  }
+  
+  .propertyFor input[type='number'] {
+    -moz-appearance: textfield; /* Firefox */
+    -webkit-appearance: none; /* Chrome and Safari */
+  }
+  
+  .propertyFor textarea {
+    width: calc(100% - 200px);
+    padding: 10px;
+    border: none; /* Initially, set border to none */
+    border-bottom: 1px solid #ccc; /* Visible border at the bottom */
+    border-radius: 10px;
+    transition: border-bottom 0.3s ease; /* Add a transition effect */
+    resize: none;
+  }
+  
+  /* Style for the focused textarea */
+  .propertyFor textarea:focus {
+    border-bottom: 2px solid rgb(108, 108, 108); /* Change the border at the bottom on focus */
+    outline: none; /* Remove the default focus outline */
+  }
+
+  .propertyFor input[type='text'] {
+    width: calc(100% - 600px); /* Set width of the input, considering 10px padding on each side */
+    padding: 10px; /* Add padding to the input */
+    margin-bottom: 10px; /* Set spacing between input elements */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Set border radius */
+    margin-left: 50px;
+    margin-top: 2%;
+  }
+
+
+
+  .propertyFor select{
+    width: calc(100% - 750px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+  }
+
+  .dimensions {
+    /* Add spacing between input elements */
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+
+  }
+  
+  /* Style for the input elements */
+  .dimensions input[type='text'] {
+    width: calc(100% - 800px); /* Set width of the input, considering 10px padding on each side */
+    padding: 10px; /* Add padding to the input */
+    margin-bottom: 30px; /* Set spacing between input elements */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Set border radius */
+    margin-left: 50px;
+}
+
+  /* CheckboxList */
+.generalAmenities{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.checkbox-list {
+    display: flex;
+    margin-top: 2%;
+  
+}
+  
+label {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.checkbox-list input{
+    margin-right: 20px;
+    transform: scale(1.5);
+}
+
+.fileUpload{
+    padding-top: 40px;
+}
+  
+/* ButtonStyles.css */
+
+.submitbtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3498db;
+    transition: background-color 0.3s ease;
+    margin-left: 10%;
+  }
+  
+  .submitbtn:hover {
+    background-color: #2980b9;
+  }
+
+  /* ButtonStyles.css */
+
+.cancelbtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #7b7c7c;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+  
+.cancelbtn:hover {
+    background-color: #4c4d4e;
+}
+  
+  @media (max-width: 700px) {
+    form {
+      margin-bottom: 10%;
+    }
+  
+    .addproperty {
+      margin-top: 20%;
+      width: 100%;
+    }
+  
+    .addproperty h2 {
+      text-align: center;
+      margin-bottom: 4%;
+    }
+  
+    .basicInfo {
+      margin-bottom: 20px;
+      width: 120%;
+      margin-left: 0%;
+    
+    }
+  
+    .basicInfo input[type='text'] {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+  
+    .basicInfo select {
+      width: 100%; /* Adjusted to full width */
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+    }
+  
+    .basicInfo textarea {
+      width: calc(100% - 20px);
+      padding: 10px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      border-radius: 10px;
+      transition: border-bottom 0.3s ease;
+      resize: none;
+    }
+  
+    .basicInfo textarea:focus {
+      border-bottom: 2px solid rgb(108, 108, 108);
+      outline: none;
+    }
+  
+    .propertyFor {
+      width: 120%;
+      margin-left: 0%;
+      margin-top: 5%;
+    }
+  
+    .propertyFor .price[type='Number'],
+    .propertyFor input[type='number'] {
+      width: calc(100% - 20px);
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      margin-left: 0; /* Adjusted to start from the left */
+    }
+  
+    .propertyFor input[type='number']::-webkit-inner-spin-button,
+    .propertyFor input[type='number']::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  
+    .propertyFor input[type='Number'] {
+      -moz-appearance: textfield;
+    }
+  
+    .propertyFor input[type='number'] {
+      -moz-appearance: textfield;
+      -webkit-appearance: none;
+    }
+  
+    .propertyFor textarea {
+      width: calc(100% - 20px);
+      padding: 10px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      border-radius: 10px;
+      transition: border-bottom 0.3s ease;
+      resize: none;
+    }
+  
+    .propertyFor textarea:focus {
+      border-bottom: 2px solid rgb(108, 108, 108);
+      outline: none;
+    }
+  
+    .propertyFor input[type='text'] {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin-left: 0; /* Adjusted to start from the left */
+      margin-top: 2%;
+    }
+  
+    .propertyFor select {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+    }
+  
+    .dimensions {
+      margin-bottom: 20px;
+      width: 120%;
+      margin-left: 0%;
+      margin-top: 5%;
+    }
+  
+    .dimensions input[type='text'] {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 30px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin-left: 0; /* Adjusted to start from the left */
+    }
+  
+
+    .checkbox-list {
+      display: flex;
+      margin-top: 2%;
+      width: 100%;
+    }
+  
+    label {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+    }
+  
+    .checkbox-list input {
+      margin-right: 20px;
+      transform: scale(1.5);
+    }
+  
+    .fileUpload {
+      padding-top: 40px;
+    }
+  
+    .submitbtn,
+    .cancelbtn {
+      margin-left: 0; /* Adjusted to start from the left */
+    }
+
+    .generalAmenities{
+        width: 120%;
+        margin-left: 0%;
+    }
+    .checkbox-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+        gap: 10px; /* Adjust the gap between items as needed */
+    }
+  }
+  
